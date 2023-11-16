@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Restaurant Menu</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+
+    <h1>Menu</h1>
+
+    <nav>
+        <ul>
+            <a href="#home"><li>Home</li></a>
+            <a href="#order"><li>Order</li></a>
+        </ul>
+    </nav>
+
+    <section class="items" id="hoem">
+        <div class="item" data-toggle="1">
+            <img src="pizza.jpeg" alt="">
+            <h2>Pizza</h2>
+            <p>Price: 10.99$</p>
+            <div class="details" id="details-1">
+                
+                <p>Made freshly from the oven with cheese and toppings on top of it</p>
+            </div>
+        </div>
+        <div class="item" data-toggle="2">
+            <img src="burger.jpeg" alt="">
+            <h2>Burger</h2>
+            <p>Price: 9.99$</p>
+            <div class="details" id="details-2">
+                
+                <p>Made of bread , melting cheese and well-cooked patty inside it , and also some vegetables inside the bread. </p>
+            </div>
+        </div>
+            <div class="item" data-toggle="3">
+            <img src="pasta.jpeg" alt="">
+            <h2>pasta</h2>
+            <p>Price: 15.99$</p>
+            <div class="details" id="details-3">
+                
+                <p>Made freshly from the kitchen , served with any toppings you like.</p>
+            </div>
+        </div>
+        <div class="item" data-toggle="4">
+            <img src="coffee.jpeg" alt="">
+            <h2>Coffee</h2>
+            <p>Price: 5.99$</p>
+            <div class="details" id="details-4">
+                
+                <p>Served hot and it also has an art on top of it</p>
+            </div>
+        </div>
+        <div class="item" data-toggle="5">
+            <img src="juices.jpeg" alt="">
+            <h2>Juices</h2>
+            <p>Price: 5.99$ Each</p>
+            <div class="details" id="details-5">
+                
+                <p>Juices which freshly made of fresh fruits.</p>
+            </div>
+        </div>
+
+    </section>
+        <div class="Order">
+            <button class="button" id="order">  Order Now!</button>
+        </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="menu.js"></script>
+    
+</body>
+</html>

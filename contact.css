@@ -1,0 +1,112 @@
+*,*::after,*::before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:arial;
+    font-size: 16px;
+    margin: 0;
+    /* background-color:rgba(66, 58, 58, 0.616); */
+    background-image: url(OIP.jpeg);
+    /* color: rgba(94, 61, 61, 0.349); */
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    
+}
+
+
+.input-container{
+    width: 600px;
+    background-color:#ffffff48;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.3);
+    border: 2px solid gray;
+}
+
+.input-container .input-row{
+    margin-bottom: 12px;
+
+}
+
+.input-container input:not([type="submit"]),
+.input-container textarea{
+    width: 100%;
+    margin: 0 0 3px;
+    background-color: #d6d6d6;
+    color: black;
+    padding: 10px 15px   ;
+    height: 40px;
+    line-height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    outline: 0;
+    transition: all 0.5s ease-out;
+}
+
+.input-container textarea{
+    height: 100px;
+    resize: none;
+}
+
+.input-container input:not([type="submit"]):focus,
+.input-container textarea:focus{
+    border-color: skyblue;
+}
+
+*::-webkit-input-placeholder{
+    opacity: 1;
+    color: black;
+}
+
+.input-container input[type="submit"]{
+    padding: 10px 30px;
+    font-size: 18px;
+    line-height:  30px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color:#d6d6d6 ;
+    color: black;
+    border: 0;
+    transform: all 0.5s ease-out;
+    border-radius: 5px;
+}
+
+.input-container input[type="submit"]:hover{
+    background-color: rgb(43, 36, 36);
+    color: white;
+
+}
+
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+label.error{
+    font-weight: 700;
+    display: block;
+    color: red;
+    font-size: 15px;
+}
+
+p{
+  color: red;  
+  background-color: white;
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  
+}
